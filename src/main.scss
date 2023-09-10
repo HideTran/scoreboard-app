@@ -1,3 +1,37 @@
 *{
     padding: 10px;
 }
+body{
+    width: 1000px;
+}
+h1{
+    background-color: rgb(95, 219, 221);
+    color: white;
+    text-align: center;
+}
+ul{
+    padding-left: 320px;
+}
+li{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0%;  
+}
+form{
+    background-color: rgb(95, 219, 221);
+    text-align: center;
+
+    input{
+        background-color: rgb(84, 211, 213);
+        color: white;
+        border-radius: 5px;
+    }
+    button{
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+
+    }
+}
